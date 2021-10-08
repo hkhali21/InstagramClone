@@ -13,8 +13,8 @@ public class ParseApplication extends Application {
 
         //Register your parse module
         Parse.initialize(new Parse.Configuration.Builder(this)
-                .applicationId("19tTdzTB0xia3lGjavDwPS0RZ2EEYaWi9yXeJ0d9")
-                .clientKey("kh7mBsZ4bEU9H4ROx38jVEdj3PmqrlNACQ2eQdyA")
+                .applicationId("VRCyRwg2MxI0VLrAfon3tIAI5dG8tEULP6a6qtSx")
+                .clientKey("jryOKEcraszoJuupXbwQKJ15Gyio5RjnngI8WunJ")
                 .server("https://parseapi.back4app.com")
                 .build()
         );

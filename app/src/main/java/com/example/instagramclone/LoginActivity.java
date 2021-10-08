@@ -1,7 +1,6 @@
 package com.example.instagramclone;
 
 import android.content.Intent;
-import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.text.Html;
 import android.util.Log;
@@ -33,17 +32,16 @@ public class LoginActivity extends AppCompatActivity {
 
 
 
-
-
         logo = findViewById(R.id.logo);
 
         if (ParseUser.getCurrentUser() != null) {
             goMainActivity();
         }
 
-        etUsername = findViewById(R.id.etUsername);
+        etUsername = findViewById(R.id.tvUsername);
         etPassword = findViewById(R.id.etPassword);
         btnLogin = findViewById(R.id.btnLogin);
+
 
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override

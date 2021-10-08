@@ -17,7 +17,7 @@
         tools:srcCompat="@drawable/nav_logo_whiteout" />
 
     <EditText
-        android:id="@+id/etUsername"
+        android:id="@+id/tvUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
@@ -40,7 +40,17 @@
         android:layout_weight="1"
         android:background="@color/blue"
         android:backgroundTint="#03A9F4"
-        android:text="Login" />
+        android:text="LOGIN" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:background="@color/green"
+        android:backgroundTint="@color/green"
+        android:text="SIGN UP " />
 
 
 </LinearLayout>
